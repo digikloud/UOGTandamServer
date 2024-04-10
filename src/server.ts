@@ -34,7 +34,6 @@ async function createToken() {
         password: process.env.APS_SECRET,
       }
     });
-  console.log("res",response.data)
   return response.data;
 }
 
